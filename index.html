@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Kiszkot TV</title>
-<link rel="stylesheet" href="decorations.css">
-<script src="image.js"></script>
-<meta name="viewport" content="width=device-width, initial scale=1" />
-</head>
-<body bgcolor="#1ca949">
-<p class="title">Hello Customer</p>
-<p class="uTitle">This site is under maintance; soon we will have a kiszkot tv channel.<br>Meanwhile you can enjoy the latest video or go to the channel clicking the link below.
-<br> <a href="https://www.youtube.com/channel/UCuMhj7l2qrAZ6QtgqY3mOGA">
-kiszkot tv</a> </p>
-<p align="center">
-	<iframe id="link" src="https://www.youtube.com/embed/dQJEzkLGuOk" allowfullscreen></iframe>
-</p>
-<div align="center">
-	<button align="left" onclick="prev()">Previous</button>
-	<button align="right" onclick="next()">Next</button>
-</div>
-</body>
+	<head>
+		<title>Kiszkot TV</title>
+		<link rel="stylesheet" href="decorations.css">
+		<script src="image.js"></script>
+		<meta name="viewport" content="width=device-width, initial scale=1" />
+	</head>
+	<body>
+		<nav>
+			<p class="logo">Kiszkot TV
+			<p class="nav">
+			<a href="https://www.youtube.com/channel/UCuMhj7l2qrAZ6QtgqY3mOGA">channel link</a>
+			-
+			<a href="#foot">bottom</a>
+			</p>
+			</p>
+		</nav>
+		<div class="main">
+			<p class="title">Hello Customer</p>
+			<p>This site is under maintance; soon we will have a kiszkot tv channel.<br>
+			Meanwhile you can enjoy the latest video or go to the channel by clicking "channel link"</p>
+			<p style="margin-bottom:20px;">
+				<iframe id="link" src="https://www.youtube.com/embed/dQJEzkLGuOk" allowfullscreen></iframe>
+			</p>
+		</div>
+		<div class="button" align="center">
+			<button align="left" onclick="prev()">Previous</button>
+			<button align="right" onclick="next()">Next</button>
+		</div>
+		<div id="foot">
+			<p>Contact: kiszkot@gmail.com</p>
+		</div>
+	</body>
 </html>
