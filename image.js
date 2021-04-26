@@ -1,5 +1,6 @@
-var links = ["https://www.youtube.com/embed/dQJEzkLGuOk","https://www.youtube.com/embed/qrFHx5CucsU","https://www.youtube.com/embed/HPXzJ_K0d6g","https://www.youtube.com/embed/5_7S27Q5040"];
+var links = ["https://www.youtube.com/embed/HPXzJ_K0d6g"];
 var n = 0;
+var width = screen.width;
 
 function next(){
 	var change = document.getElementById("link");
@@ -19,4 +20,9 @@ function prev(){
 		n = links.length - 1;
 	}
 	change.src = links[n];
+}
+
+function getWidth() {
+	var x = String(document.getElementById("width").innerHTML);
+	document.getElementById("width").innerHTML = x + String(width) + 'px';
 }

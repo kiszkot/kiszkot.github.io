@@ -3,7 +3,7 @@
 	<head>
 		<title>Kiszkot TV</title>
 		<link rel="stylesheet" href="decorations.css">
-		<script src="image.js"></script>
+		<script src="image.js">getWidth();</script>
 		<meta name="viewport" content="width=device-width, initial scale=1" />
 	</head>
 	<body>
@@ -12,24 +12,40 @@
 			<p class="nav">
 			<a href="https://www.youtube.com/channel/UCuMhj7l2qrAZ6QtgqY3mOGA">channel link</a>
 			-
-			<a href="#foot">bottom</a>
+			<a href="#footer">bottom</a>
+			-
+			<!--<a href="poems.html">poems</a>
+			- -->
+			<a href="index.html">home</a>
+			-
+			<a href="codes.html">codes</a>
 			</p>
 			</p>
 		</nav>
-		<div class="main">
-			<p class="title">Hello Customer</p>
-			<p>This site is under maintance; soon we will have a kiszkot tv channel.<br>
-			Meanwhile you can enjoy the latest video or go to the channel by clicking "channel link"</p>
-			<p style="margin-bottom:20px;">
+		<div id="left">
+			
+		</div>
+		<main>
+			<h1 class="title">Hello</h1>
+			<p>You may be wondering why does this site exist. Simple, I am bored.<br>
+			You can probably get to my youtube channel by clicking "channel link" at the top of the page.
+			In the event you are lazy, <a href="https://www.youtube.com/channel/UCuMhj7l2qrAZ6QtgqY3mOGA">here is the same link</a>.</p>
+			
+			<p>You can check some projects I added to github under "codes".</p>
+			<media>
+			<div style="margin-bottom:20px;">
 				<iframe id="link" src="https://www.youtube.com/embed/dQJEzkLGuOk" allowfullscreen></iframe>
-			</p>
-		</div>
-		<div class="button" align="center">
-			<button align="left" onclick="prev()">Previous</button>
-			<button align="right" onclick="next()">Next</button>
-		</div>
-		<div id="foot">
+			</div>
+			<div class="button" align="center">
+				<button align="left" onclick="prev()">Previous</button>
+				<button align="right" onclick="next()">Next</button>
+			</div>
+			</media>
+		</main>
+		<footer id="footer">
 			<p>Contact: kiszkot@gmail.com</p>
-		</div>
+			<p id="width">Width: </p>
+			<script>getWidth();</script>
+		</footer>
 	</body>
 </html>
