@@ -1,2 +1,3 @@
 # kiszkot.github.io
-I have no idea why I decided to add this, but now that I have added a Java project I can use this to display the javadoc, if you can find it.
+This now acts as a waypoint for some of my other profiles on different pages.
+The card game JavaDoc still remains if you want to check it out.
