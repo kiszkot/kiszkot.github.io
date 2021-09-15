@@ -1,4 +1,4 @@
-var links = ["https://www.youtube.com/embed/HPXzJ_K0d6g"];
+var links = ["https://www.youtube.com/embed/HPXzJ_K0d6g","https://www.youtube.com/embed/znOWjJniHpQ"];
 var n = 0;
 var width = screen.width;
 
