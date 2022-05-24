@@ -1,0 +1,34 @@
+#menu {
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #555;
+    top: 3rem;
+    left: 0;
+    text-align: left;
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+    z-index: 1000;
+}
+
+#menu.hide {
+    transform: translate3d(-100vw, 0, 0);
+}
+
+#menu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+}
+
+/*
+#menu a:link {
+    color: #00d;
+}
+
+#menu a:visited {
+    color: #0ad;
+}
+
+#menu a:hover {
+    color: #0d0;
+}*/

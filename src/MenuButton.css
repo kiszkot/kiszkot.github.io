@@ -1,0 +1,11 @@
+#logoButton {
+    background-color: #000;
+    font-size: 1.4rem;
+    color: #fff;
+    border: none;
+}
+
+#logoButton:hover {
+    background-color: #fff;
+    color: #000;
+}

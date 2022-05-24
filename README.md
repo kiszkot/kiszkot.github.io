@@ -1,3 +1,6 @@
 # kiszkot.github.io
 This now acts as a waypoint for some of my other profiles on different pages.
-The card game JavaDoc still remains if you want to check it out.
+
+Now it works with React as I am trying to learn some Frontend Development.
+
+The card game JavaDoc does not work anymore.
