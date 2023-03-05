@@ -6,16 +6,19 @@ class MediaPlayer extends React.Component {
     }
 
     prev = () => {
-        console.log(this.state.i);
-        if (this.state.i === 0) {
-            this.setState({i: this.state.data.length});
+        this.setState({i: this.state.i-1});
+        if (this.state.i === -1) {
+            this.setState({i: this.props.data.length-1});
         }
+        console.log(this.state.i);
     }
 
     next = () => {
-        if (this.state.i === this.state.data.length) {
-            this.setState({i: 0, video: this.state.video});
+        this.setState({i: this.state.i+1});
+        if (this.state.i === this.props.data.length) {
+            this.setState({i: 0});
         }
+        console.log(this.state.i);
     }
 
     render() {
@@ -24,8 +27,8 @@ class MediaPlayer extends React.Component {
             <iframe id="link" src={this.props.data[this.state.i]} allowfullscreen title="Parkour"></iframe>
         </div>
         <div class="button" align="center">
-            <button align="left" onclick={this.prev}>Previous</button>
-            <button align="right" onclick={this.next}>Next</button>
+            <button align="left" onClick={this.prev}>Previous</button>
+            <button align="right" onClick={this.next}>Next</button>
         </div>
         </media>
     }
