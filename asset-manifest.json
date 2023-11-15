@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.69e2867f.css",
-    "main.js": "/static/js/main.13d2328a.js",
+    "main.js": "/static/js/main.8a11e6a1.js",
     "static/js/787.98e71f19.chunk.js": "/static/js/787.98e71f19.chunk.js",
     "static/media/swedish_certificate.png": "/static/media/swedish_certificate.25054a0e7a02027fb345.png",
     "index.html": "/index.html",
     "main.69e2867f.css.map": "/static/css/main.69e2867f.css.map",
-    "main.13d2328a.js.map": "/static/js/main.13d2328a.js.map",
+    "main.8a11e6a1.js.map": "/static/js/main.8a11e6a1.js.map",
     "787.98e71f19.chunk.js.map": "/static/js/787.98e71f19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69e2867f.css",
-    "static/js/main.13d2328a.js"
+    "static/js/main.8a11e6a1.js"
   ]
 }
