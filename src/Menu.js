@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Menu.css';
 
-const links = ["/drawings", "/videos", "/codes"];
+const links = ["/drawings", "/videos", "/codes", "/certificates"];
 
 function LinkList(props) {
     const arr = props.data;
