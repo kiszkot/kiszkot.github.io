@@ -6,6 +6,7 @@ import Footer from './Footer';
 import { Routes, Route } from 'react-router-dom';
 import Codes from './Codes';
 import Drawings from './Drawings';
+import certificate from './swedish_certificate.png';
 
 class MenuContainer extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class MenuContainer extends React.Component {
           <Route path='/videos' element={<Videos />}/>
           <Route path='/codes' element={<Codes />}/>
           <Route path='/drawings' element={<Drawings />}/>
+          <Route path='/swedish_certificate' element={certificate}/>
         </Routes>
         <Footer />
     </div>
