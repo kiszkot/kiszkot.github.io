@@ -8,9 +8,11 @@ const links = new Map([
 class Drawings extends React.Component {
     render() {
         return <div>
-            <h1 class="title">Hello</h1>
+            <h1 className="title">Hello</h1>
 			<p>
-                Here is a list of pages where I post drawings mostly.
+                Twitter, now called X. I have not posted there for some time. DeviantArt on the other hand is a little better, but weird policy: 
+                pay to upload some content. It makes sense from a certain point of view, but there are better alternatives like Mastodon. 
+                I should consider donating to them.
 			</p>
             <AnchorList links={links} />
         </div>

@@ -4,9 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import MenuContainer from './MenuContainer';
 import reportWebVitals from './reportWebVitals';
-import PiwikPro from '@piwikpro/react-piwik-pro';
+// import PiwikPro from '@piwikpro/react-piwik-pro';
 
-PiwikPro.initialize('5484f57a-1b43-4fde-bbe7-d152de83ddbe', 'https://kiszkot.piwiksandbox.com');
+// PiwikPro.initialize('5484f57a-1b43-4fde-bbe7-d152de83ddbe', 'https://kiszkot.piwiksandbox.com');
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(

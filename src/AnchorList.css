@@ -1,11 +1,15 @@
+ul {
+    color: #c29dc1;
+}
+
 a {
-    color: #00d;
+    color: #c29dc1;
 }
 
 a:visited {
-    color: #0ad;
+    color: #ecbfeb;
 }
 
 a:hover {
-    color: #1a1;
+    color: #c2a59d;
 }

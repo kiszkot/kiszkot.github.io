@@ -8,9 +8,9 @@ const links = new Map([
 class Codes extends React.Component {
     render() {
         return <div>
-            <h1 class="title">Hello</h1>
+            <h1 className="title">Hello</h1>
 			
-			<p>	Here you can find a link to my github as well as a link to the javadoc of one of my repositories.
+			<p> Github link and Javadoc for one of my Engineering projects. Nothing fancy, just some card stuff. I'll probably remove it in the future, who knows?
 			</p>
             <AnchorList links={links}/>
         </div>
