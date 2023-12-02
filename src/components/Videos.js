@@ -1,8 +1,6 @@
 import React from 'react';
 import AnchorList from './AnchorList';
-//import MediaPlayer from './MediaPlayer';
 
-//const video = ["https://www.youtube.com/embed/HPXzJ_K0d6g","https://www.youtube.com/embed/znOWjJniHpQ"];
 const links = new Map([
     ["Youtube","https://www.youtube.com/channel/UCuMhj7l2qrAZ6QtgqY3mOGA"]
 ]);

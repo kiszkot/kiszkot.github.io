@@ -1,0 +1,11 @@
+.p-image {
+    display: flex;
+}
+
+p img {
+    width: 5em;
+}
+
+br {
+    margin-bottom: 1em;
+}

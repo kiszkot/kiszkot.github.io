@@ -1,6 +1,6 @@
-import './Certificates.css'
+import '../assets/Certificates.css'
 import React from 'react';
-import certificate from './swedish_certificate.png';
+import certificate from '../assets/swedish_certificate.png';
 
 class Videos extends React.Component {
     render() {

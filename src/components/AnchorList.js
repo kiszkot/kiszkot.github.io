@@ -1,5 +1,5 @@
 import React from 'react';
-import './AnchorList.css'
+import '../assets/AnchorList.css'
 
 function AnchorList(props) {
     const arr = props.links;
